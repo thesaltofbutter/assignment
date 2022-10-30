@@ -1,0 +1,17 @@
+create database Instagram;
+use Instagram;
+
+create table messages(
+	user_id int,
+	user2_id int
+);
+create table stories(
+	upload_date date
+);
+create table posts(
+	total int
+);
+create table user(
+	username varchar(250),
+	no_post int
+);
